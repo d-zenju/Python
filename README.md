@@ -31,4 +31,4 @@ webカメラをリアルタイムに表示する
 
 ===
 # LICENSE
-This software is released under the MIT License, see [LICENSE.txt](https://github.com/d-zenju/python/LICENSE.txt "LICENSE.txt").
+This software is released under the MIT License, see [LICENSE.txt](https://github.com/d-zenju/python/blob/master/LICENSE.txt "LICENSE.txt").
