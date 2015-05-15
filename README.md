@@ -1,4 +1,5 @@
 python
+======
 
 # calibration
 キャリブレーションに関するコード
@@ -27,3 +28,7 @@ python
 
 # realvideo.py
 webカメラをリアルタイムに表示する
+
+===
+# LICENSE
+This software is released under the MIT License, see [LICENSE.txt](https://github.com/d-zenju/python/LICENSE.txt "LICENSE.txt").
