@@ -42,7 +42,7 @@ def main():
         object_points.append(pattern_points)
 
     # 内部パラメータ計算
-    retval, cameraMatrix, distCoeffs, rvecs, tvecs = cv2.calibrateCamera(object_points, image_points, image.shape[::-1])
+    retval, cameraMatrix, distCoeffs, rvecs, tvecs = cv2.calibrateCamera(object_points, image_points, image.shape[::-1], None, None)
     fovx, fovy, focalLength, principalPoint, aspectRatio = cv2.calibrationMatrixValues(cameraMatrix, image.shape[::-1], apertureWidth, apertureHeight)
      
     # 計算結果を表示
